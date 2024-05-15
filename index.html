@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tva Prorata Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>tva Prorata Calculator</h1>
+    <label for="totalSales">Total CA (TTC):</label>
+    <input type="number" id="totalSales" placeholder="Enter total sales amount">
+    <label for="vatSales">TVA Sales (HT):</label>
+    <input type="number" id="vatSales" placeholder="Enter TVA sales amount">
+    <button onclick="calculateProrata()">Calculate Prorata</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
